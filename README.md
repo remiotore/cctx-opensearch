@@ -1,6 +1,12 @@
 # ccxt-opensearch
 CCXT data storage on Opensearch
 
+## WIP
+
+- Integration with TA-Lib to calculate indicators
+- Alerts based on indicators
+- Dashboards
+
 ## Usage
 
 Simply run this command to run all components in docker-compose.yml file.
@@ -16,7 +22,7 @@ To access to the platform use "admin" and its password (docker-compose.yml OPENS
 - (GUI) OpenSearch Dashboard: http://127.0.0.1:5601 (no certs)
 - (API) OpenSearch Index: https://127.0.0.1:9200 (self certs)
 
-## Fetcher
+## Fetch Data
 
 Install the requirements and execute the script to fetch data and ingest into OpenSearch.
 
@@ -60,4 +66,3 @@ Or an index for the same asset:
 ```
 binance-crypto-btc-*
 ```
-
