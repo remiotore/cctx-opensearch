@@ -1,2 +1,2 @@
-# cctx-opensearch
-CCTX data storage on Opensearch
+# ccxt-opensearch
+CCXT data storage on Opensearch
